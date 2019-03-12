@@ -20,14 +20,14 @@
 
     <!-- Title --------------------------------------------------------------->
     {% if page.title %}
-      <h2 class="w-100 mt-3 mb-3 text-center">
+      <h3 class="w-100 mt-3 mb-4 text-center">
 
         <!-- {% if page.icon %}
           <i class="{{ page.icon }} mr-2" aria-hidden="true"></i>
         {% endif %} -->
 
         {{ page.title }}
-      </h2>
+      </h3>
     {% endif %}
 
     <!-- Body ---------------------------------------------------------------->

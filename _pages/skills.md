@@ -5,14 +5,14 @@ permalink: /skills/
 icon: fas fa-toolbox
 ---
 
-<div class="col-10 col-md-12">
+<div class="col-11 col-md-12">
 
-  <div class="row">
+  <div class="row justify-content-center">
 
     <!-- Foundations --------------------------------------------------------->
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4 mb-3 mb-lg-0">
       <ul class="list-unstyled">
-        <li class="mb-3"><b>Foundations</b>
+        <li><b>Foundations</b>
           <ul class="list-unstyled">
             <li class="mb-2">
               Thorough understanding of hardware/software architecture, operating systems, and data structures.
@@ -32,10 +32,11 @@ icon: fas fa-toolbox
           </ul>
         </li>
       </ul>
+      <hr class="mt-4 d-lg-none">
     </div>
 
     <!-- Techniques ---------------------------------------------------------->
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4 mb-3 mb-lg-0">
       <ul class="list-unstyled mb-3"><b>Techniques</b>
         <li class="mb-2">Cross-Browser Development</li>
         <li class="mb-2">Mobile-First Design</li>
@@ -50,10 +51,11 @@ icon: fas fa-toolbox
         <li class="mb-2">Understand software engineering best practices.</li>
         <li class="mb-2">Write clear and detailed technical specifications and documentation.</li>
       </ul>
+      <hr class="mt-4 d-lg-none">
     </div>
 
     <!-- Toolset ------------------------------------------------------------->
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-lg-4 mb-3 mb-lg-0">
       <ul class="list-unstyled mb-3"><b>Toolset</b>
         <ul class="list-unstyled">
 
@@ -119,7 +121,6 @@ icon: fas fa-toolbox
           <li class="mb-3">Linux/Unix, Shell</li>
         </ul>
       </ul>
-
     </div>
   </div>
 </div>

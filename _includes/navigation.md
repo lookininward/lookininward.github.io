@@ -42,6 +42,15 @@
 
       <li
         class="nav-item
+              {% if page.url == "/work/" %} active {% endif %}"
+      >
+        <a class="nav-link" href="/work">
+          Work
+        </a>
+      </li>
+
+      <li
+        class="nav-item
               {% if page.url == "/articles/" %} active {% endif %}"
       >
         <a class="nav-link" href="/articles">
