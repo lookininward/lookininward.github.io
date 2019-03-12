@@ -25,55 +25,7 @@
   <body>
 
     <!-- Navigation ---------------------------------------------------------->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand font-weight-bold" href="/">
-        <i class="fas fa-user-circle mr-2"></i>
-        Michael Xavier
-      </a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbar-primary"
-        aria-controls="navbar-primary"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbar-primary">
-        <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item active">
-            <a class="nav-link" href="/">
-              Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/skills">Skills</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/articles">Articles</a>
-          </li>
-
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    {% include navigation.md %}
 
     {% if page.title %}
       <h1>{{ page.title }}</h1>
@@ -107,11 +59,7 @@
     <div>
 
     <!-- Footer -------------------------------------------------------------->
-    <footer
-      class="navbar fixed-bottom navbar-light bg-light justify-content-center"
-    >
-      lookininard.github.io
-    </footer>
+    {% include footer.md %}
 
   </body>
 </html>
