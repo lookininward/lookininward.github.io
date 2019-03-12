@@ -60,3 +60,10 @@
     </ul>
   </div>
 </nav>
+
+<!-- Buffer ------------------------------------------------------------------>
+<div
+  class="buffer-navigation"
+  style="width:100%; height:70px;"
+>
+</div>
