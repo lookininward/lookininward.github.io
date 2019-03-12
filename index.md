@@ -6,7 +6,7 @@ layout: default
 
   <div class="row mb-3">
 
-    <div class="col-md-4">
+    <div class="col-12">
       <img
         src="/assets/profile.jpg"
         class="card-img"
@@ -14,7 +14,7 @@ layout: default
       />
     </div>
 
-    <div class="col-12 col-md-8 mt-3 pl-4 pr-4 mt-4 mb-3">
+    <div class="col-12 mt-3 pl-4 pr-4 mt-4 mb-3">
       This photo proves that I am a 100% real human software developer. Nothing suspicious going on. If you want to talk, get in touch.
     </div>
   </div>

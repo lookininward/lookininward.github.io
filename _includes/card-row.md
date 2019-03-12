@@ -1,8 +1,6 @@
-<div class="row mt-md-3">
+<div class="row mt-2 mb-2 mb-md-3">
   <div class="col-12">
-    <div
-      class="card mb-2 mb-md-3"
-    >
+    <div class="card">
       <div class="row no-gutters">
        <!--  <div class="col-2 col-md-4" style="background: url({{ include.src }}); background-size: cover;"> -->
        <!--  <div

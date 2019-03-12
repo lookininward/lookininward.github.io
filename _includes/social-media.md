@@ -9,7 +9,7 @@
       <a
         href="https://www.linkedin.com/in/vinothmichaelxavier/"
         target="_blank"
-        class="text-dark"
+        class="text-dark ml-2 mr-2"
       >
         <i class="fab fa-linkedin"></i>
       </a>
@@ -18,7 +18,7 @@
       <a
         href="https://medium.com/@sunskyearthwind"
         target="_blank"
-        class="text-dark"
+        class="text-dark ml-2 mr-2"
       >
         <i class="fab fa-medium"></i>
       </a>
@@ -27,7 +27,7 @@
       <a
         href="https://github.com/lookininward"
         target="_blank"
-        class="text-dark"
+        class="text-dark ml-2 mr-2"
       >
         <i class="fab fa-github"></i>
       </a>

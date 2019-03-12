@@ -9,7 +9,8 @@
 <footer
   class="navbar fixed-bottom navbar-light bg-light justify-content-center"
 >
-  lookininard.github.io
+  <!-- Social Media ------------------------>
+  {% include social-media.md %}
 </footer>
 
  <!-- Bootstrap ----------------------------------------------------------->
