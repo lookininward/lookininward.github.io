@@ -27,7 +27,8 @@
     <!-- Navigation ---------------------------------------------------------->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand font-weight-bold" href="/">
-        {{ "<Michael Xavier/>" | escape }}
+        <i class="fas fa-user-circle mr-2"></i>
+        Michael Xavier
       </a>
 
       <button
@@ -81,16 +82,35 @@
     <!-- Body Content -------------------------------------------------------->
     <div class="container mb-5" style="margin-top: 70px;">
 
-      <div class="row">
+      <div class="row mb-5">
         {{ content }}
       </div>
+
+      <div class="row justify-content-center">
+        <div class="col-7">
+          <div
+            class="d-flex align-items-center justify-content-around"
+            style="font-size: 32px;"
+          >
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-medium"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div
+      class="buffer-footer"
+      style="width:100%; height:40px;"
+    >
+    <div>
 
     <!-- Footer -------------------------------------------------------------->
     <footer
       class="navbar fixed-bottom navbar-light bg-light justify-content-center"
     >
-      &copy; lookininard.github.io
+      lookininard.github.io
     </footer>
 
   </body>

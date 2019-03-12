@@ -4,7 +4,7 @@ layout: default
 
 <div class="col-12 col-md-6">
 
-  <div class="row mb-4">
+  <div class="row mb-3">
 
     <div class="col-md-4">
       <img
@@ -14,8 +14,8 @@ layout: default
       />
     </div>
 
-    <div class="col-md-8 mt-2 mt-md-0">
-      Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet metus fermentum posuere.
+    <div class="col-12 col-md-8 mt-3 pl-4 pr-4 mt-4 mb-3">
+      This photo proves that I am a 100% real human software developer. Nothing suspicious going on. If you want to talk, get in touch.
     </div>
   </div>
 

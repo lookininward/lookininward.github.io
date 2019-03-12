@@ -11,11 +11,11 @@
         >
           <i class="{{include.icon}}"></i>
         </div> -->
-        <div class="col-10 col-md-8">
+        <div class="col-12">
           <div class="card-body">
-            <h5 class="card-title">
-              <i class="{{include.icon}} mr-2"></i>
-              {{ include.title }}
+            <h5 class="card-title d-flex align-items-center">
+              <i class="{{include.icon}} mr-3"></i>
+              <div class="text-primary">{{ include.title }}</div>
             </h5>
             <p class="card-text">{{ include.description }}</p>
             <!-- <p class="card-text">
