@@ -39,36 +39,7 @@
       </div>
 
       <!-- Social Media ------------------------>
-      <div class="row justify-content-center">
-        <div class="col-7">
-          <div
-            class="d-flex align-items-center justify-content-around"
-            style="font-size: 32px;"
-          >
-            <a
-              href="https://www.linkedin.com/in/vinothmichaelxavier/"
-              target="_blank"
-              class="text-dark"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://medium.com/@sunskyearthwind"
-              target="_blank"
-              class="text-dark"
-            >
-              <i class="fab fa-medium"></i>
-            </a>
-            <a
-              href="https://github.com/lookininward"
-              target="_blank"
-              class="text-dark"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-      </div>
+      {% include social-media.md %}
     </div>
 
     <!-- Footer -------------------------------------------------------------->
