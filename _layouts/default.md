@@ -45,9 +45,27 @@
             class="d-flex align-items-center justify-content-around"
             style="font-size: 32px;"
           >
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-medium"></i>
-            <i class="fab fa-github"></i>
+            <a
+              href="https://www.linkedin.com/in/vinothmichaelxavier/"
+              target="_blank"
+              class="text-dark"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://medium.com/@sunskyearthwind"
+              target="_blank"
+              class="text-dark"
+            >
+              <i class="fab fa-medium"></i>
+            </a>
+            <a
+              href="https://github.com/lookininward"
+              target="_blank"
+              class="text-dark"
+            >
+              <i class="fab fa-github"></i>
+            </a>
           </div>
         </div>
       </div>
