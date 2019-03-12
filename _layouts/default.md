@@ -20,14 +20,21 @@
 
     <!-- Title --------------------------------------------------------------->
     {% if page.title %}
-      <h1>{{ page.title }}</h1>
+      <h2 class="w-100 mt-3 mb-3 text-center">
+
+        <!-- {% if page.icon %}
+          <i class="{{ page.icon }} mr-2" aria-hidden="true"></i>
+        {% endif %} -->
+
+        {{ page.title }}
+      </h2>
     {% endif %}
 
     <!-- Body ---------------------------------------------------------------->
     <div class="container mb-5">
 
       <!-- Content ----------------------------->
-      <div class="row mb-5">
+      <div class="row justify-content-center mb-5">
         {{ content }}
       </div>
 

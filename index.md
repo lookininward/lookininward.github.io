@@ -25,24 +25,27 @@ layout: default
   {% include
      card-row.md
      title="Skills & Toolset"
-     description="With a focus on the front-end user experience."
+     description="Breakdown of the technology and techniques I use to craft software."
      src="https://images.pexels.com/photos/207666/pexels-photo-207666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
      icon="fas fa-toolbox"
+     url="/skills"
   %}
 
   {% include
      card-row.md
      title="Work & Experience"
-     description="Started out as an intern at a hospital, took on freelance.."
+     description="The road from noob to software developer, and where I'm planning to go from here."
      src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
      icon="fas fa-project-diagram"
+     url="/work"
   %}
 
   {% include
      card-row.md
      title="Articles & Inspirations"
-     description="Learning process works well when I go back and break.."
+     description="Things I've written and that which inspire me."
      src="https://images.pexels.com/photos/1496183/pexels-photo-1496183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
      icon="far fa-newspaper"
+     url="/articles"
   %}
 </div>

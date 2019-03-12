@@ -15,7 +15,12 @@
           <div class="card-body">
             <h5 class="card-title d-flex align-items-center">
               <i class="{{include.icon}} mr-3"></i>
-              <div class="text-primary">{{ include.title }}</div>
+              <a
+                class="text-primary"
+                href="{{include.url}}"
+              >
+                {{ include.title }}
+              </a>
             </h5>
             <p class="card-text">{{ include.description }}</p>
             <!-- <p class="card-text">
