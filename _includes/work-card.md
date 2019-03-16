@@ -1,7 +1,13 @@
-<div class="card">
+<style>
+  .work-card-header button:hover {
+    color: blue !important;
+  }
+</style>
+
+<div class="">
 
   <!-- Card Header ----------------------------------------------------------->
-  <div class="p-2 bg-white">
+  <div class="work-card-header pl-2 pr-2 pt-1 pb-1 bg-white">
     <h5 class="mb-0">
       <button
         class="btn btn-link w-100 text-dark text-decoration-none text-left"

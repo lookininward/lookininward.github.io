@@ -10,7 +10,12 @@
     <meta name="keywords" content="Michael, Xavier, Software, Developer">
 
      <!-- Bootstrap ---------------------------------------------------------->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    >
   </head>
 
   <body class="d-flex flex-column">
@@ -21,23 +26,18 @@
     <!-- Title --------------------------------------------------------------->
     {% if page.title %}
       <h3 class="w-100 mt-3 mb-4 mb-lg-5 text-center">
-
-        <!-- {% if page.icon %}
-          <i class="{{ page.icon }} mr-2" aria-hidden="true"></i>
-        {% endif %} -->
-
         {{ page.title }}
       </h3>
     {% endif %}
 
     <!-- Body ---------------------------------------------------------------->
     <div
-      class="container d-flex align-items-center"
+      class="container d-flex align-items-center justify-content-center"
       style="flex: 1 1 auto;"
     >
 
       <!-- Content ----------------------------->
-      <div class="row justify-content-center mb-5">
+      <div class="row justify-content-center w-100">
         {{ content }}
       </div>
 

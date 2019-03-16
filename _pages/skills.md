@@ -2,11 +2,9 @@
 title: Skills & Toolset
 layout: default
 permalink: /skills/
-icon: fas fa-toolbox
 ---
 
 <div class="col-11 col-md-12">
-
   <div class="row justify-content-center">
 
     <!-- Foundations --------------------------------------------------------->

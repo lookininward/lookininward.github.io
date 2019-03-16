@@ -4,9 +4,8 @@ layout: default
 permalink: /work/
 ---
 
-<div class="col-11 col-md-6">
-
-  <div class="accordion" id="accordion">
+<div class="col-11 col-md-8">
+  <div class="accordion w-100" id="accordion">
 
     {% include
       work-card.md
