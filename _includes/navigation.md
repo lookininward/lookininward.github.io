@@ -22,9 +22,11 @@
   <!-- Nav Items ------------------------------------------------------------->
   <div class="collapse navbar-collapse" id="navbar-primary">
     <ul class="navbar-nav ml-auto">
+
       <li
         class="nav-item
-              {% if page.url == "/" %} active {% endif %}"
+               d-lg-none
+               {% if page.url == "/" %} active {% endif %}"
       >
         <a class="nav-link" href="/">
           Home
@@ -33,25 +35,25 @@
 
       <li
         class="nav-item
-              {% if page.url == "/skills/" %} active {% endif %}"
+               {% if page.url == "/skills/" %} active {% endif %}"
       >
         <a class="nav-link" href="/skills">
-          Skills
+          Skills & Toolset
         </a>
       </li>
 
       <li
         class="nav-item
-              {% if page.url == "/work/" %} active {% endif %}"
+               {% if page.url == "/work/" %} active {% endif %}"
       >
         <a class="nav-link" href="/work">
-          Work
+          Work & Experience
         </a>
       </li>
 
       <li
         class="nav-item
-              {% if page.url == "/articles/" %} active {% endif %}"
+               {% if page.url == "/articles/" %} active {% endif %}"
       >
         <a class="nav-link" href="/articles">
           Articles
@@ -60,7 +62,7 @@
 
       <li
         class="nav-item
-              {% if page.url == "/contact/" %} active {% endif %}"
+               {% if page.url == "/contact/" %} active {% endif %}"
       >
         <a class="nav-link">
           Contact
@@ -72,7 +74,7 @@
 
 <!-- Buffer ------------------------------------------------------------------>
 <div
-  class="buffer-navigation"
-  style="width:100%; height:70px;"
+  class="buffer-navigation w-100"
+  style="height:80px;"
 >
 </div>

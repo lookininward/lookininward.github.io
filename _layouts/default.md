@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
 
-  <body>
+  <body class="d-flex flex-column">
 
     <!-- Navigation ---------------------------------------------------------->
     {% include navigation.md %}
 
     <!-- Title --------------------------------------------------------------->
     {% if page.title %}
-      <h3 class="w-100 mt-3 mb-4 text-center">
+      <h3 class="w-100 mt-3 mb-4 mb-lg-5 text-center">
 
         <!-- {% if page.icon %}
           <i class="{{ page.icon }} mr-2" aria-hidden="true"></i>
@@ -31,7 +31,10 @@
     {% endif %}
 
     <!-- Body ---------------------------------------------------------------->
-    <div class="container mb-5">
+    <div
+      class="container d-flex align-items-center"
+      style="flex: 1 1 auto;"
+    >
 
       <!-- Content ----------------------------->
       <div class="row justify-content-center mb-5">

@@ -1,9 +1,8 @@
 <!-- Buffer ------------------------------------------------------------------>
 <div
-  class="buffer-footer"
-  style="width:100%; height:40px;"
->
-<div>
+  class="buffer-footer w-100"
+  style="height: 80px;"
+></div>
 
 <!-- Footer ------------------------------------------------------------------>
 <footer
