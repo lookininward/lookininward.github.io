@@ -42,15 +42,16 @@
         </a>
       </li>
 
-      <li
-        class="nav-item
-               {% if page.url == "/work/" %} active {% endif %}"
-      >
-        <a class="nav-link" href="/work">
-          Work & Experience
-        </a>
-      </li>
-
+      {% comment %}
+        <li
+          class="nav-item
+                 {% if page.url == "/work/" %} active {% endif %}"
+        >
+          <a class="nav-link" href="/work">
+            Work & Experience
+          </a>
+        </li>
+      {% endcomment %}
       <li
         class="nav-item
                {% if page.url == "/articles/" %} active {% endif %}"
@@ -60,14 +61,17 @@
         </a>
       </li>
 
-      <li
-        class="nav-item
-               {% if page.url == "/contact/" %} active {% endif %}"
-      >
-        <a class="nav-link">
-          Contact
-        </a>
-      </li>
+      {% comment %}
+        <li
+          class="nav-item
+                 {% if page.url == "/contact/" %} active {% endif %}"
+        >
+          <a class="nav-link">
+            Contact
+          </a>
+        </li>
+      {% endcomment %}
+
     </ul>
   </div>
 </nav>

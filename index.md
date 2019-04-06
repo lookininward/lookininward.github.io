@@ -31,14 +31,16 @@ layout: default
      url="/skills"
   %}
 
-  {% include
-     card-row.md
-     title="Work & Experience"
-     description="The road from noob to software developer, and where I'm planning to go from here."
-     src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-     icon="fas fa-project-diagram"
-     url="/work"
-  %}
+  {% comment %}
+    {% include
+       card-row.md
+       title="Work & Experience"
+       description="The road from noob to software developer, and where I'm planning to go from here."
+       src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+       icon="fas fa-project-diagram"
+       url="/work"
+    %}
+  {% endcomment %}
 
   {% include
      card-row.md
