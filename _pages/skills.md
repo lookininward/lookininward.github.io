@@ -121,6 +121,7 @@ permalink: /skills/
         <li class="mb-3">Frameworks & Libraries
           <ul>
             <li>Ember.JS</li>
+            <li>Vue.JS</li>
             <li>jQuery</li>
             <li>Jekyll</li>
           </ul>
@@ -132,16 +133,17 @@ permalink: /skills/
             <li>Django</li>
             <li>MongoDB</li>
             <li>Firebase</li>
+            <li>AWS Amplify</li>
           </ul>
         </li>
 
         <li class="mb-3">UI/UX, Design Tools & Frameworks
           <ul>
-            <li>Bootstrap 4</li>
+            <li>Bootstrap</li>
             <li>Materialize</li>
-            <li>Font Awesome 5</li>
             <li>Sketch</li>
             <li>Photoshop</li>
+            <li>Font Awesome</li>
           </ul>
         </li>
 
@@ -149,13 +151,6 @@ permalink: /skills/
           <ul>
             <li>SCSS/SASS</li>
             <li>LESS</li>
-          </ul>
-        </li>
-
-        <li class="mb-3">Templating
-          <ul>
-            <li>Handlebars</li>
-            <li>Liquid</li>
           </ul>
         </li>
 
